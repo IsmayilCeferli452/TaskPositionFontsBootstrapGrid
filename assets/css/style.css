@@ -1,0 +1,269 @@
+header{
+    overflow: hidden;
+}
+
+.header-top {
+    background-color: black;
+    height: 30px;
+    border-bottom: 2px solid rgb(3, 66, 66);
+}
+
+.top-right {
+    position: relative;
+    top: 7px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.top-right i {
+    color: rgb(192, 192, 192);
+}
+
+.header-mid {
+    background-color: rgb(9, 33, 33);
+    height: 150px;
+}
+
+.mid-left h1 {
+    color: white;
+    text-shadow: 4px 4px 4px green;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-size: 35px;
+}
+
+.mid-right {
+    position: relative;
+    top: 122px;
+    display: flex;
+    justify-content: center;
+}
+
+.mid-right button {
+    width: 130px;
+    border: 1px solid rgb(9, 33, 33);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: rgb(14,164,58);
+    background: linear-gradient(90deg, rgba(14,164,58,1) 0%, rgba(63,236,58,1) 35%, rgba(46,157,39,1) 100%);  
+    color: white;  
+    font-weight: 500;
+    font-family: system-ui;
+}
+
+.header-bottom{
+    background: rgb(14,164,58);
+    background: linear-gradient(90deg, rgba(14,164,58,1) 0%, rgba(63,236,58,1) 35%, rgba(46,157,39,1) 100%); 
+    height: 500px;
+}
+
+.bottom-left{
+    position: relative;
+    top: 60px;
+    left: 120px;
+}
+
+.subject p:first-child{
+    font-size: xx-large
+}
+
+.subject p:last-child{
+    font-size: large;
+}
+
+.bottom-left button{
+    border: 1px solid green;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 520px;
+    padding-bottom: 5px;
+}
+
+.img img{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 60%;
+    height: 100%;
+}
+
+#services .services-container{
+    background-color: rgb(9, 33, 33);
+    height: 400px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.overview .top{
+    display: flex;
+    justify-content: center;
+}
+
+.overview .bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.team-top{
+    display: flex;
+    justify-content: center;
+}
+
+.team-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.news-top{
+    display: flex;
+    justify-content: center;
+}
+
+.news-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.team{
+    margin-left: 20px;
+    position: relative;
+    top: 100px;
+    font-size: large;
+}
+
+.news{
+    margin-left: 5px;
+    position: relative;
+    top: 100px;
+    font-size: large;
+}
+
+.overview{
+    position: relative;
+    top: 100px;
+    font-size: large;
+}
+
+.top span{
+    color: green;
+    font-size: x-large;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.top i{
+    padding: 10px;
+    color: darkgoldenrod;
+}
+
+.bottom ul{
+    color: aliceblue;
+}
+
+.team-top span{
+    color: green;
+    font-size: x-large;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.team-top i{
+    padding: 10px;
+    color: darkblue;
+}
+
+.team-bottom span{
+    color: aliceblue;
+}
+
+.news-top span{
+    color: green;
+    font-size: x-large;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.news-top i{
+    padding: 10px;
+    color: white;
+}
+
+.news-bottom span{
+    color: aliceblue;
+}
+
+.info-container{
+    height: 400px;
+    display: flex;
+    background-color: rgb(5, 80, 80);
+    border-bottom: 5px solid black;
+}
+
+
+.information{
+    max-width: 700px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.information span{
+    color: aliceblue;
+}
+
+.information h3{
+    color: green;
+    font-size: x-large;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.clients h3{
+    color: green;
+    font-size: x-large;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.clients img{
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.footer-container{
+    height: 100px;
+    background-color: rgb(9, 33, 33);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left{
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+.footer-left p{
+    color: aliceblue;
+}
+
+.footer-left span{
+    color: aliceblue;
+}
+
+.footer-right{
+    position: relative;
+    color: green;
+    top: 10px;
+}
+
+.footer-bottom{
+    display: flex;
+    gap: 2px    ;
+}
